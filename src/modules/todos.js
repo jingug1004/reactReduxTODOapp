@@ -74,7 +74,7 @@ function todos(state = initialState, action) {
                 todos: state.todos.filter(todo => todo.id !== action.id)
             };
         default:
-            return this.state;
+            return state;
     }
 }
 
