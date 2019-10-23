@@ -1,15 +1,15 @@
 import React from 'react';
-import Counter from './components/Counter';
+import CounterContainer from './container/CounterContainer';
 import logo from './logo.svg';
 import './App.css';
-import Todos from "./components/Todos";
+import TodosContainer from "./container/TodosContainer";
 
 const App = () => {
     return (
         <div>
-            <Counter number={0}/>
+            <CounterContainer/>
             <hr/>
-            <Todos/>
+            <TodosContainer/>
         </div>
     );
 };
