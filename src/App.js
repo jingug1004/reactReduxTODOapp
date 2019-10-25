@@ -1,8 +1,8 @@
 import React from 'react';
-import CounterContainer from './container/CounterContainer';
+import CounterContainer from './containers/CounterContainer';
 import logo from './logo.svg';
 import './App.css';
-import TodosContainer from "./container/TodosContainer";
+import TodosContainer from "./containers/TodosContainer";
 
 const App = () => {
     return (
